@@ -13858,3 +13858,10 @@ Entries:
   id: 1533
   time: '2025-11-09T19:47:46.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2539
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Enabled scrap VGroid spawning.
+  id: 1534
+  time: '2025-11-09T19:50:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2550
