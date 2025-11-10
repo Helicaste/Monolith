@@ -13962,3 +13962,16 @@ Entries:
   id: 1545
   time: '2025-11-10T23:47:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2593
+- author: NazrinNya
+  changes:
+    - type: Tweak
+      message: Pre-fracture UIV has got docking ports and is capable of spinning.
+    - type: Tweak
+      message: rAI and silicon faction turrets will ignore ADS manipulator units.
+    - type: Tweak
+      message: >-
+        All of UIV's can be piloted now! (If you manage to slap thrusters and
+        console on them).
+  id: 1546
+  time: '2025-11-10T23:54:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2592
