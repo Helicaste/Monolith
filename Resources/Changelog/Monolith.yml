@@ -15026,3 +15026,17 @@ Entries:
   id: 1666
   time: '2025-12-19T16:02:29.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2824
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Spessbite received a huge overhaul: Rear docks, food assembler, and
+        biogenerator were added. Atmos totally redone. External layout shuffled.
+        Price reduced to 35000.
+    - type: Remove
+      message: >-
+        The Rhea, one of the oldest ships in Monolith breathes its last breath.
+        Rest in peace.
+  id: 1667
+  time: '2025-12-20T17:32:33.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2830
