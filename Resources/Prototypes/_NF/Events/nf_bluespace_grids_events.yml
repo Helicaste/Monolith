@@ -21,7 +21,7 @@
         nameLoc:
         - station-event-bluespace-name-SyndicateWeaponsCache
         minimumDistance: 1500
-        maximumDistance: 2500
+        maximumDistance: 5000 # Mono
         addComponents:
         - type: Gravity
           enabled: true
@@ -63,7 +63,7 @@
         nameLoc:
         - station-event-bluespace-name-SecureNTVault
         minimumDistance: 1500
-        maximumDistance: 2500
+        maximumDistance: 5000 # Mono
         addComponents:
         - type: Gravity
           enabled: true
@@ -91,7 +91,7 @@
     warningAnnouncement: station-event-bluespace-vault-warning-announcement
     endAnnouncement: station-event-bluespace-vault-end-announcement
     earliestStart: 60 # Mono
-    maximumPlayers: 30
+    maximumPlayers: 0 # Mono
     weight: 5
     duration: 590
     maxDuration: 780
@@ -104,7 +104,7 @@
         nameLoc:
         - station-event-bluespace-name-SecureNTVault
         minimumDistance: 1500
-        maximumDistance: 2500
+        maximumDistance: 5000 # Mono
         addComponents:
         - type: Gravity
           enabled: true
