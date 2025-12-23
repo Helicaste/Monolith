@@ -39,6 +39,8 @@
       - RodMetal1
       - Sheet
       - CableCoil
+      - Recyclable # Mono
+      #DRAFT: Add flatpacks
       components:
       - ConstructionMaterials
     blacklist:
