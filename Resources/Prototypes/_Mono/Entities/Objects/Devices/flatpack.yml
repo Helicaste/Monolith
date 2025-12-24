@@ -216,7 +216,6 @@
       Steel: 100
       Glass: 30
 
-
 - type: entity
   parent: BaseNFFlatpack
   id: TegCirculatorFlatpack
@@ -284,3 +283,14 @@
   - type: StaticPrice
     price: 4000
     vendPrice: 10000
+
+- type: entity
+  parent: BaseFlatpack
+  id: StationGunneryServerFlatpack
+  name: station gunnery server flatpack
+  description: A flatpack used for constructing a station gunnery server. For repair purposes only.
+  components:
+  - type: Flatpack
+    entity: GunneryServerStation
+  - type: StaticPrice
+    vendPrice: 1500
