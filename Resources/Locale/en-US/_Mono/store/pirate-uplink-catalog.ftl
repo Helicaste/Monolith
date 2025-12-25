@@ -96,6 +96,9 @@ uplink-pirate-cash100000-desc = That's my boy, you really made my day.
 uplink-syndicate-applicator-name = Advanced Nanite Applicator
 uplink-syndicate-applicator-desc = Advanced nanite applicator with a heavily upgraded nanite capacity capable of self-nanite generation.
 
+uplink-pirate-stationgunneryserver-name = PDV Station Gunnery Server
+uplink-pirate-stationgunneryserver-desc = An extremely expensive gunnery server entrusted by the Sultan personally to the Grand Vizier. For repair use only.
+
 # MARK: Weapons
 
 uplink-pirate-energy-cutlass-name = Energy Cutlass
