@@ -357,3 +357,22 @@
         - Sheriff
         - Bailiff
         - SeniorOfficer 
+
+- type: listing
+  id: UplinkSecurityStationGunneryServer
+  name:  uplink-security-stationgunneryserver-name
+  description: uplink-security-stationgunneryserver-desc
+  productEntity: StationGunneryServerFlatpack
+  icon: { sprite: Structures/Machines/telecomms.rsi, state: base }
+  cost:
+    FederationMilitaryCredit: 1000
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Sheriff
