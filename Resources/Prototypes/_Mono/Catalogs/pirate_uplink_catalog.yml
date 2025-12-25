@@ -1295,6 +1295,7 @@
   name: uplink-pirate-stationgunneryserver-name
   description: uplink-pirate-stationgunneryserver-desc
   productEntity: StationGunneryServerFlatpack
+  icon: { sprite: Structures/Machines/telecomms.rsi, state: base }
   cost:
     Doubloon: 1000
   categories:
