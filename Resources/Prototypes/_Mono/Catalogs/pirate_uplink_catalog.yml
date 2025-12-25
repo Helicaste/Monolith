@@ -1289,3 +1289,21 @@
 #    whitelist:
 #      tags:
 #      - PirateUplink
+
+- type: listing
+  id: UplinkPirateGunneryServer
+  name: uplink-pirate-stationgunneryserver-name
+  description: uplink-pirate-stationgunneryserver-desc
+  productEntity: StationGunneryServerFlatpack
+  cost:
+    Doubloon: 1000
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+  - !type:BuyerJobCondition
+      whitelist:
+        - PirateCaptain # Grand Vizier
