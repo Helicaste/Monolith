@@ -99,3 +99,6 @@ uplink-security-hardsuit-m82c-desc = A basic protective system for dangerous env
 
 uplink-security-pulserifle-name = Pulse Rifle
 uplink-security-pulserifle-desc = A large, automatic pulse weapon. Larger cell, and high powered, perfect for chewing through groups of foes.
+
+uplink-security-stationgunneryserver-name = TSFMC Station Gunnery Server
+uplink-security-stationgunneryserver-desc = A extremely expensive gunnery server requisitioned by the Colonel directly from Sol. For repair use only.
