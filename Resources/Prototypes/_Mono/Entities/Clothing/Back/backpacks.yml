@@ -7,3 +7,43 @@
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Backpacks/di.rsi
+
+- type: entity
+  parent: [Clothing, ClothingSlotBase]
+  id: ClothingBackpackMinigunProvider
+  name: minigun backpack ammo feeder
+  description: A backpack ammo feeder for a Minigun. Accepts Big 9x19 FMJ boxes only.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Back/Backpacks/minigunbackpack.rsi
+    layers:
+    - state: icon
+      visible: false
+    - state: base
+  - type: Clothing
+    slots: BACK
+  - type: MagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        whitelist:
+          tags:
+          - MinigunAmmoBox
+  - type: Appearance
+  - type: StaticPrice
+    price: 500
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      item: !type:ContainerSlot
+  - type: Item
+    size: Ginormous
+  - type: Tag
+    tags:
+    - MinigunAmmoBackpack
+    - WhitelistChameleon
+  - type: ClothingSpeedModifier
+    walkModifier: 0.81
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
