@@ -469,3 +469,15 @@
 
 - type: Tag
   id: Dragoon
+
+  
+# Minigun Backpack Stuff
+
+- type: Tag
+  id: MinigunAmmoBackpack
+
+- type: Tag
+  id: MinigunAmmoBox
+
+-type: Tag
+  id: Minigun
