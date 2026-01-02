@@ -37,11 +37,12 @@
       collection: SnipersDrop
   # Goobstation edit end
 
+  #Mono Edit
 - type: entity
   name: minigun
   id: WeaponMinigun
   parent: BaseWeaponHeavyMachineGun
-  description: Vzzzzzt! Rahrahrahrah! Vrrrrr! Uses .10 rifle ammo. Illegal for use in the Frontier sector. # Frontier: edit description
+  description: Vzzzzzt! Rahrahrahrah! Vrrrrr! Uses 9x19mm FMJ ammo from a dedicated feed backpack.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/HMGs/minigun.rsi
@@ -49,14 +50,32 @@
     - state: icon
   - type: Item
     sprite: Objects/Weapons/Guns/HMGs/minigun.rsi
+    size: Ginormous
+  - type: Wieldable
+  - type: GunRequiresWield
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.65
+    sprintModifier: 0.65
   - type: Gun
+    minAngle: 1.3
+    maxAngle: 9
+    angleIncrease: 0.4
+    angleDecay: 16
     fireRate: 15
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/minigun.ogg
-  - type: BallisticAmmoProvider
-    proto: CartridgeMinigun
-    capacity: 1000
+  - type: ClothingSlotAmmoProvider
+    targetSlot: BACK
+    providerWhitelist:
+      tags:
+      - MinigunAmmoBackpack
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
         ents: []
+  - type: PirateBountyItem # Mono
+    id: ExperimentalFactionWeapon
+#Mono edit end
