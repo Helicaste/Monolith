@@ -201,3 +201,7 @@
     steps: 4
     zeroVisible: false
   - type: Appearance
+  - type: Tag
+    tags:
+    - MinigunAmmoBox
+
